@@ -1,0 +1,32 @@
+.top_nav{
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_profile_card{
+    width: fit-content;
+    max-width: 80%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+}
+.profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_img img{
+    height: 50px;
+}

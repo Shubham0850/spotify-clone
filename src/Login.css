@@ -1,0 +1,9 @@
+.login{
+    display: grid;
+    place-items: center;
+}
+
+.login > img {
+    width: 80%;
+    margin: 0px auto;
+}

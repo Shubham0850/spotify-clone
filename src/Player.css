@@ -1,0 +1,22 @@
+.player_container {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.player_bg_image{
+  background-image: url("https://image.freepik.com/free-photo/spotify-logo-around-3d-rendering-abstract-shape_1379-4896.jpg");
+  background-position: center;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  overflow-y: scroll;
+}

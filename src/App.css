@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+img {
+  width: 100%;
+}
+ion-icon {
+  font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* typography */
+
+h3, h4 {
+  line-height: 15px;
+}
+p {
+  font-size: 15px;
+}
+.small_p {
+  font-size: 13px;
+}
+.music_h3{
+  margin: 5px 0px 5px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ********** */
+
+/* common style sheet */
+/* ****************** */
+
+/* Buttons */
+.btn {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1db954;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg_glass {
+  width: 100%;
+  height: auto;
+
+  background: rgba(0, 0, 0, 0.15);
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.overflow_dotted {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overflow_scroll{
+  width: 100%;
+  height: auto;
+  padding: 5px 10px 5px 5px;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  overflow-x: scroll;
 }

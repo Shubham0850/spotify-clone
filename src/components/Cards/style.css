@@ -1,0 +1,52 @@
+/* Artist card */
+
+.artist_card {
+  width: 100px;
+  margin: 5px;
+}
+.artist_img img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}
+.artist_name {
+  width: 100%;
+  margin: 0px auto;
+  padding: 4px;
+  text-align: center;
+
+  border-radius: 10px;
+}
+
+/* *********** */
+
+/* Album card */
+
+.album_card {
+  width: 150px;
+  min-width: 150px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.album_img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+.album_name {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  margin: 0px auto;
+
+  position: relative;
+  top: -38px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* ********** */
