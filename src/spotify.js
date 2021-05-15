@@ -3,7 +3,10 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 const clientId = "bd8b29b38a044a6198ed49f8a7c966f7";
 
-const redirectUri = "http://localhost:3000/callback";
+const dev = false;
+
+const redirectUri = dev ? "https://spotify-clone-cb4f6.web.app/" : "http://localhost:3000/callback";
+
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",

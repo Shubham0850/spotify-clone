@@ -5,6 +5,7 @@ import Music from "./components/Music";
 import TopNav from "./components/TopNav";
 import "./Player.css";
 import ArtistCard from "./components/Cards/Artist";
+import MusicPlayer from "./components/MusicPlayer";
 
 export default function Player({ spotify }) {
   return (

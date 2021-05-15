@@ -1,0 +1,168 @@
+.music_player_container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: scroll;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url("https://image.freepik.com/free-photo/front-view-modern-young-lady-colorful-coat-orange-t-shirt-with-black-earphones-posing-listening-music-black-background-dance-modern-fashion_140725-16069.jpg");
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0px -16px 46px -19px rgba(0,0,0,0.75);
+}
+.music_player{
+    padding: 10px;
+
+   
+}
+
+.music_cover_image{
+    width: 100%;
+    box-sizing: border-box;
+}
+.music_cover_image img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 58px -10px rgba(0,0,0,0.75);
+}
+.music_name{
+    width: 95%;
+    margin: 0px auto;
+    border-radius: 10px;
+
+    position: relative;
+    top: -70px;
+    padding: 10px;
+}
+
+.music_controller{
+    width: 100%;
+    margin: 10px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_btn{
+    background-color: transparent;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.small_btn{
+    width: 40px;
+    height: 40px;
+}
+
+.play_btn{
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.95);
+}
+.glass_btn > ion-icon{
+    opacity: 0.5;
+}
+.m_controller{
+    margin-top: -60px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 20px;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #1db954;
+    border-radius: 25px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.95);
+    border: 5px solid #1db954;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #1db954;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #1db954;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #1db954;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #1db954;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #1db954;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #1db954;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #1db954;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #1db954;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #1db954;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #1db954;
+  }

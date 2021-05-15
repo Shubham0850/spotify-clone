@@ -17,7 +17,9 @@ ion-icon {
 }
 
 /* typography */
-
+h2{
+  line-height: 20px;
+}
 h3, h4 {
   line-height: 15px;
 }

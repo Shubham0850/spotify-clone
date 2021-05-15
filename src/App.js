@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const hash = getTokenFromResponse();
     window.location.hash = "";
-
+    
     const _token = hash.access_token;
 
     if (_token) {
@@ -43,7 +43,7 @@ function App() {
       
     }
   }, []);
-  console.log(playlists)
+  console.log(token)
   return (
     <div className="app">
       {token ? <Player spotify={spotify} /> : <Login />}
